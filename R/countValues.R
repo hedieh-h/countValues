@@ -5,6 +5,7 @@
 #' @param data A data frame containing the data to be grouped and counted.
 #' @param group_by A character vector of column names to group by.
 #' @param na.rm Logical indicating whether to remove rows with NA values in the grouping columns.
+#'
 #' @importFrom dplyr %>%
 #' @return A data frame with one row per unique combination of values in the specified columns, with a `count` column indicating the occurrences.
 #' @examples
