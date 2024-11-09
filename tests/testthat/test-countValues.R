@@ -13,7 +13,7 @@ test_that("Checks that the function properly removes the NA Values", {
 })
 
 test_that("Checks if the function accurately handles invalid column names", {
-  expect_error(countValues(test_data, group_by = "invalid_column"), 
+  expect_error(countValues(test_data, group_by = "invalid_column"),
                "One or more columns specified in `group_by` do not exist in the data.")
 })
 

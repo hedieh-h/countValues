@@ -1,16 +1,12 @@
 Package: countValues
-Title: What the Package Does (One Line, Title Case)
+Title: Count Occurrences of Values in Specified Columns
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"),
-           comment = c(ORCID = "YOUR-ORCID-ID"))
-Description: What the package does (one paragraph).
+    person("Hedieh", "Hashemi", , "hediehh@student.ubc.ca", role = c("aut", "cre"))
+Description: `count_values` is a function that groups data by specified columns and counts the number of occurrences in each group.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 Imports: 
     dplyr
-Suggests: 
-    testthat (>= 3.0.0)
-Config/testthat/edition: 3
