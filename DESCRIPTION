@@ -1,6 +1,6 @@
 Package: countValues
 Title: Count Occurrences of Values in Specified Columns
-Version: 0.0.0.9000
+Version: 0.1.0
 Authors@R: 
     person("Hedieh", "Hashemi", , "hediehh@student.ubc.ca", role = c("aut", "cre"))
 Description: `count_values` is a function that groups data by specified columns and counts the number of occurrences in each group.
